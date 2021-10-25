@@ -25,16 +25,34 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 # Deployment
 
-Address: 0x6CeF481515AFF880456DA046be6Ea10d2E5CaD08
+- SolnSquareVerifier
 
-Tx: 0x1c2dcad3db9f0d898855c0bf1170a1fae40a4a4a2ee26ef589026a1d243899c7
+https://rinkeby.etherscan.io/address/0x6cef481515aff880456da046be6ea10d2e5cad08
 
 
-# Mint 
+- SquareVerifier
 
-Minted tokenId 32
+https://rinkeby.etherscan.io/address/0x611ed1d37bcc0a841303390a18a2995294c13b39
 
-https://rinkeby.etherscan.io/tx/0xd92b3fc4512b9d230cf866ccc63fe3cc479c4d43f4f16ad9691f2fdd00bc2b82
+# OpenSea Store front 
 
-https://testnets.opensea.io/assets/0x6cef481515aff880456da046be6ea10d2e5cad08/32
+https://testnets.opensea.io/collection/unidentified-contract-hx9evbrwu9
 
+# Contract's ABI
+
+- SolnSquareVerifier
+
+https://github.com/lineker/RealStateBlockchain/blob/master/eth-contracts/build/contracts/SolnSquareVerifier.json
+
+- SquareVerifier
+
+https://github.com/lineker/RealStateBlockchain/blob/master/eth-contracts/build/contracts/SquareVerifier.json
+
+
+# Accounts
+
+0x4e3E5df1C100725B940eeaC84767309c18B5CDC9
+
+0x0a3f212ec9C78340D804B1808268013582119700
+
+0x27E3028037D8bd54864E3eE3CB261cc42Ed8e6E6
