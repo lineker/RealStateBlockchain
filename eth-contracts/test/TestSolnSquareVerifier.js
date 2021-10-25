@@ -28,7 +28,8 @@ contract("SolnSquareVerifier", (accounts) => {
         proof: { a, b, c },
         inputs: input,
       } = proof;
-
+      
+      console.log(`${account_two}, ${5}, ${a}, ${b}, ${c}, ${input}`)
       let key = await contract.getVerifierKey(a, b, c, input);
 
       let result = await contract.addSolution(account_two, 2, key);
@@ -46,7 +47,7 @@ contract("SolnSquareVerifier", (accounts) => {
 
       let totalSupply = (await contract.totalSupply()).toNumber();
 
-      // console.log(`${account_two}, ${5}, ${a}, ${b}, ${c}, ${input}`)
+      console.log(`${account_two}, ${5}, ${a}, ${b}, ${c}, ${input}`)
       let isCorrect = await contract.mintToken(
         account_two,
         50000,
